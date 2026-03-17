@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Разделы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Структура курса</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Число j и комплексная плоскость",
+              description: "Мнимая единица j = √−1, полярная и алгебраическая форма комплексного числа",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Импеданс и проводимость",
+              description: "Комплексное сопротивление элементов: резистора R, катушки jωL и конденсатора 1/jωC",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Резонанс и фильтры",
+              description: "Анализ резонансных цепей и частотных фильтров с помощью комплексных амплитуд",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Мощность в цепях переменного тока",
+              description: "Активная, реактивная и полная мощность через комплексные амплитуды тока и напряжения",
               direction: "bottom",
             },
           ].map((service, i) => (
